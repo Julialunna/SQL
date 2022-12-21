@@ -1,7 +1,10 @@
 USE sucos;
 
-UPDATE tbprodutos SET EMBALAGEM = 'Garrafa'
-WHERE PRODUTO ='1078680';
+UPDATE tabela_vendedores SET PERCENTUAL_COMISSAO = 0.11
+WHERE MATRICULA ='00236';
 
-UPDATE tbprodutos SET EMBALAGEM = 'Lata', PRECO_LISTA = 2.46
-WHERE PRODUTO = '544931';
+UPDATE tabela_vendedores SET NOME = 'José Geraldo da Fonseca Junior'
+WHERE MATRICULA = '00233';
+
+SELECT * FROM tabela_vendedores
+
